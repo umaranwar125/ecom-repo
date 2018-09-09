@@ -1,0 +1,7 @@
+# Guideline for installing Database file.
+
+	1.	Open MS SQL SERVER 2017
+	2.	Right-click on Databases and select Import Data-tier Application...
+	3.	Click Next
+	4.	Import that 'Database.bacpac' file there.
+	5.	CLick Next and Next.
