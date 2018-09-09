@@ -1,0 +1,6 @@
+@mixin padding($padding){
+	padding: $padding;
+}
+@mixin box-shadow($shadow){
+	box-shadow: $shadow;
+}

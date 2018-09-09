@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Add Admin - Dashboard</title>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex, nofollow">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Css Media Query !important -->
+        <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile-device.css" />
+        
+        <!-- Online Font Awesome Link -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       
+        <!-- Online Google Font Link-->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+        <!-- Online Google Font Link-->
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+        <!-- Online Bootstrap Link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- Online Jquery Link -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Online Bootstrap Javascript Link -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- External Css-->
+        <link rel="stylesheet" type="text/css" href="Style/Style.css">
+        
+        <!-- Animate Link -->
+        <link rel="stylesheet" href="Style/animate.css">
+
+        <!-- Javascript File -->
+        <script src="JS File/File.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Contaier-Fluid -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-md-2 col-lg-2 side-bar">
+                    <nav>
+                        <h3><a href="Dashboard.aspx"><b>A</b>dmin <b>Panel</b></a></h3>
+                        <hr class="bottom" />
+                        <ul>
+                            <a href="Dashboard.html">
+                                <li runat="server" id="DashboardActive"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;&nbsp;Dashboard</li>
+                            </a>
+                            <a href="Profile.html">
+                                <li runat="server" id="MyProfile"><i class="fa fa-user fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;My Profile</li>
+                            </a>
+                            <a href="AllReports.html">
+                                <li runat="server" id="AllReportsActive"><i class="fa fa-check-square-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;All Reports</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Second Column -->
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 right-bg">
+
+                    <!-- Top COntent -->
+                    <div class="top-content">
+                        <div class="top-content">
+                    <div class="pull-left">
+                        <a href="javascript:void(0)" onclick="openNav();"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                        <span class="glyphicon glyphicon-search"></span>&nbsp;<input type="text" placeholder="Search">
+                        <input type="submit" class="btn btn-primary" value="Go">
+                    </div>
+
+                    <!-- Notification -->
+                    <div class="pull-right">
+                        <li class="dropdown notification">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bell-o" aria-hidden="true"></i><span class="digit">6</span></a>
+                            <ul class="dropdown-menu">
+                                <h4 class="text-center">Notifications</h4>
+                                <hr class="bottom">
+
+                                <!-- Content 1 -->
+                                <div class="content">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../<%= Mydata.Image %>" width="50" height="50">
+                                    </div>
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                        <p><span>Umar  Anwar</span> submitted a<span> Sighting </span>Report</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+                                    </div>
+                                </div>
+                                
+                                <div class="content">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../<%= Mydata.Image %>" width="50" height="50">
+                                    </div>
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                        <p><span>Umar Anwar</span> posted a <span>Missing People </span>Report</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../<%= Mydata.Image %>" width="50" height="50">
+                                    </div>
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                        <p><span>Umar Anwar</span> posted a <span>Missing Thing </span>Report</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                        <img src="../<%= Mydata.Image %>" width="50" height="50">
+                                    </div>
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                        <p><span>Umar Anwar</span> posted an <span>Unidentified People </span>Report</p>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                        <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <!-- Message -->
+                        <li class="dropdown message">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="digit">3</span></a>
+                            <ul class="dropdown-menu">
+                                <h4 class="text-center">Messages</h4>
+                                <hr class="bottom">
+
+                                <!-- Content 1 -->
+                                <div class="content">
+                                    <div class="pull-left">
+                                        <h5>03159382193</h5>
+                                    </div>
+                                    <div class="pull-right">
+                                        <h5>28/13/2018</h5>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="text-center" style="margin-top: -5px;">12:45AM</h5>
+                                    <div>
+                                        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta et impedit qui maiores, laboriosam voluptat..</h6>
+                                    </div>
+                                    <hr style="border: 1px solid #d6dde5; margin-top: 0px; margin-bottom: 20px;">
+                                </div>
+                            </ul>
+                        </li>
+
+                        <!-- Profile -->
+                        <li class="dropdown profile">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <img src="Image/DSC_0355.png">&nbsp;&nbsp;
+                                <h5>Umar ANwar</h5>
+                                &nbsp;<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Profile.aspx"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Profile</a></li>
+                                <li><a href="Logout.aspx"><i class="fa fa-power-off" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Logout</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                    </div>
+                    <!-- Top Content  -->
+
+                    <!--  Main COntent -->
+                    <div class="main-content" onclick="Open();">
+
+                        <!-- Breadcrumb -->
+                        <h2 class="heading">Dashboard</h2>
+                        <ol class="breadcrumb">
+                            <li><a href="Dashboard.aspx">Home</a></li>
+                            <li><a href="Dashboard.aspx">Dashboard</a></li>
+                            <li class="active">Data</li>
+                        </ol>
+                        <!-- Breadcrumb -->
+
+                        <!-- Statistic Reports -->
+                        <div class="row">
+                            <div class="statistic-report">
+                                <!-- Column 1 -->
+                                <div class="col-sm-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="panel panel-danger">
+                                        <div class="panel-heading" style="background: white;">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-pencil-square-o fa-4x border" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-xs-9">
+                                                    <div class="text-right huge">13</div>
+                                                    <div class="text-right text">Missing People Reports</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Statistic Reports -->
+                        </div>
+                        <!-- Row -->
+
+                        <!-- Statistic Reports -->
+                        <div class="row">
+                            <div class="statistic-report">
+                                <!-- Column 1 -->
+                                <div class="col-sm-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="panel panel-danger panel1">
+                                        <div class="panel-heading" style="background: white;">
+                                            <div class="row">
+                                                <div class="col-xs-3">
+                                                    <i class="fa fa-user-circle fa-4x border" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="col-xs-9">
+                                                    <div class="text-right huge">34</div>
+                                                    <div class="text-right text">Registered Users</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Statistic Reports -->
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- Main Content -->
+                </div>
+                <!-- Second Column -->
+            </div>
+            <!-- Row  -->
+        </div>
+        <!-- Container-Fluid -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\bin\Debug\DAL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\bin\Debug\DAL.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\bin\Debug\BOL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\bin\Debug\BOL.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\DAL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\DAL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\BOL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\BOL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\obj\Debug\DAL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\Plivo.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\DAL\bin\Debug\Newtonsoft.Json.xml

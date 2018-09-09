@@ -1,0 +1,624 @@
+﻿/*#########################
+General Styling
+#########################*/
+body{
+	background: #eef3f6;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #27afc2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+}
+
+::selection {
+    background: #292121;
+    color: #27afc2;
+}
+
+p.green {
+    font-family: "Libre Baskerville", serif;
+    color: green;
+    font-size: 13px;
+}
+
+p.red {
+    font-family: "Libre Baskerville", serif;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+/*#########################
+Header Navigation Section 
+#########################*/
+nav.main {
+    background: white;
+    border-radius: .5px;
+    outline: 1px solid #27afc2;
+    border: none;
+    border-color: white;
+    padding: 16px 0px 5px 0px;
+}
+
+    nav.navbar .navbar-header button {
+        background: #27afc2;
+        border: 1px solid #333333;
+        border-radius: 2px;
+        outline: none;
+    }
+
+        nav.navbar .navbar-header button span.icon-bar {
+            color: #27afc2;
+        }
+
+    nav.navbar a.navbar-brand {
+        color: #333333;
+        font-size: 30px;
+        transition: .5s;
+        font-family: 'Dancing Script', cursive;
+        letter-spacing: 1px;
+    }
+
+        nav.navbar a.navbar-brand b {
+            font-size: 20px;
+            color: #27afc2;
+            font-weight: bold;
+        }
+
+        nav.navbar a.navbar-brand:hover {
+            color: #27afc2;
+            transition: .5s;
+        }
+
+    nav.navbar .collapse ul.nav li {
+        letter-spacing: 1px;
+    }
+
+        nav.navbar .collapse ul.nav li .dropdown-menu {
+            margin-top: 15px;
+            margin-left: -13px;
+        }
+
+            nav.navbar .collapse ul.nav li .dropdown-menu li {
+                padding: 5px 20px 5px 20px;
+                border-bottom: 1px solid lightgray;
+            }
+
+            nav.navbar .collapse ul.nav li .dropdown-menu li:last-child {
+                border: 0px;
+            }
+
+            nav.navbar .collapse ul.nav li .dropdown-menu li a {
+                color: #333333;
+                font-weight: normal;
+                outline: none;
+                font-family: "Lora", serif;
+                font-size: 13px;
+                text-align: center;
+            }
+
+                nav.navbar .collapse ul.nav li .dropdown-menu li a:hover {
+                    color: #27afc2;
+                    background: transparent !important;
+                }
+
+        nav.navbar .collapse ul.nav li a {
+            color: #333333;
+            font-weight: normal;
+            outline: none;
+            font-family: "Lora", serif;
+            transition: .5s;
+            font-size: 13px;
+        }
+
+            nav.navbar .collapse ul.nav li a:hover {
+                color: #27afc2;
+                transition: .5s;
+            }
+
+    nav.navbar .collapse ul.nav .active > a {
+        background: transparent !important;
+        color: #27afc2;
+        font-size: 14px;
+    }
+
+    nav.navbar .collapse ul.navbar-right .profile{
+        margin-top: -5px;
+    }
+
+    nav.navbar .collapse ul.navbar-right li.profile ul.dropdown-menu{
+        margin-right: -10px;
+        margin-top: 10px;
+    }
+
+    nav.navbar .collapse ul.navbar-right li.profile ul.dropdown-menu li{
+        padding: 5px 20px 5px 20px;
+        text-align: center;
+    }
+
+    nav.navbar .collapse ul.navbar-right li.profile ul.dropdown-menu li:first-child{
+        border-bottom: 1px solid lightgray;
+    }
+
+    nav.navbar .collapse ul.navbar-right li i.fa-shopping-cart {
+        font-size: 25px;
+        margin-top: -3px;
+    }
+
+    nav.navbar .collapse ul.navbar-right li span {
+        color: white;
+        position: absolute;
+        background: #27afc2;
+        width: 20px;
+        vertical-align: middle;
+        height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        margin-top: -13px;
+        margin-left: -10px;
+        font-weight: bold;
+        transition: .5s;
+        font-size: 10px;
+    }
+
+    nav.navbar .collapse ul.navbar-right li:hover span {
+        background: black;
+        transition: .5s;
+    }
+
+
+.panel .panel-body h5{
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    background: #333333;
+    height: 100px;
+    border-top: 3px solid #27afc2;
+}
+
+    .footer h5 {
+        color: white;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        font-family: "Lora", serif;
+    }
+
+    .footer .col-2 {
+        color: white;
+    }
+
+        .footer .col-2 a {
+            color: white;
+            line-height: 95px;
+            letter-spacing: 2px;
+            font-family: "Lora", serif;
+            font-size: 13px;
+        }
+
+            .footer .col-2 a:hover {
+                color: #27afc2;
+                text-decoration: none;
+            }
+
+/*=======================
+CSS3 Media Queries
+=======================*/
+
+/* For Large Screen*/
+@media (max-width: 1200px)
+{
+    #Profie-Header .navbar .collapse .nav li a{
+		font-size: 12px;
+		margin-top: 7px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 7px 10px 7px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 70px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 250px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 70%;
+	}
+	#Testimonial .footer h5{
+		font-size: 12px;
+	}
+}
+
+/* For Medium Screen*/
+@media (max-width: 992px)
+{
+	#Profie-Header .navbar .collapse .nav li a{
+		font-size: 11px;
+		margin-top: 7px;
+	}
+	#Profie-Header .navbar{
+		height: 130px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a{
+		background: transparent;
+		margin-top: -8px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	#Profie-Header .navbar .collapse .nav li a:hover{
+		margin-top: 0px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	#Profie-Header .navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	.hero-content h1{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.hero-content h1 b{
+		font-size: 35px;
+	}
+	.hero-content p{
+		font-size: 14px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		font-size: 13x;
+		padding: 3px 10px 3px 10px;
+	}
+	#Header .text-center a{
+		margin-top: 90px;
+	}
+	#discussion-forum .post{
+		margin-top: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		margin: 20px 0px 20px 0px;
+		padding: 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 60%;
+		border-radius: 5px;
+	}
+	#discussion-forum .post  .media .comment input[type=submit]{
+		font-size: 12px;
+		border-radius: 5px;
+		padding: 7px 0px 7px 0px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]::-webkit-input-placeholder{
+		font-size: 11px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 20px;
+		text-align: center;
+	}
+	#discussion-forum .column2 .panel .panel-body h5,.column2 .panel .panel-body p{
+		text-align: center;
+		line-height: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 40px;
+	}
+	#Testimonial .footer h5{
+		text-align: center;
+		font-size: 12px;
+	}
+	#Testimonial .footer .text-right{
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	#Testimonial .column-1 h4{
+		font-size: 18px;
+	}
+	#Testimonial .column-1 a{
+		font-size: 13px;
+	}
+	#Testimonial .column-1 p{
+		font-size: 13px;
+	}
+    .profile nav{
+        margin-top: 180px;
+    }
+    #Testimonial .footer{
+        height: 90px;
+    }
+}
+
+/* For Small Screen*/
+@media (max-width: 768px)
+{
+	#Profie-Header .navbar{
+		height: 90px;
+	}
+	#Profie-Header .navbar .navbar-toggle{
+		margin-top: 30px;
+		background:transparent !important;
+	}
+	#Profie-Header .navbar .navbar-toggle .icon-bar{
+		background: #fa5c65;
+	}
+	#Profie-Header .navbar .navbar-toggle:hover{
+		border: 1px solid #fa5c65;
+		transition: .5s;
+	}
+	#Profie-Header .navbar .collapse .nav{
+		background: #2d2d2d;
+	}
+	#Profie-Header .navbar .collapse .nav li a{
+		font-size: 14px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a{
+		margin-bottom: -30px;
+		color: #fa5c65;
+		font-weight: bold;
+	}
+	#Profie-Header .navbar .collapse .nav li a:hover{
+		margin-top: 7px;
+	}
+	#Profie-Header .navbar .collapse .nav .active a:hover{
+		margin-top: -8px;
+		color: #fa5c65;
+	}
+	#Profie-Header .navbar .collapse .nav .create-button a:hover{
+		margin-top: 7px;
+	}
+	#Header{
+		height: 550px;
+	}
+	#Header .text-center a{
+		margin-top: 55px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 20px 10px 20px;
+	}
+	#discussion-forum .post  .media .comment input[type=text]{
+		width: 100%;
+	}
+	#discussion-forum .column2 .panel{
+		margin-top: 40px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4,.column2 .panel .panel-body p{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .column2 .panel .panel-body h5{
+		text-align: left;
+	}
+	#discussion-forum .column2 .panel .panel-body img{
+		margin-left: 0px;
+	}
+	#Testimonial .column-1 p{
+		margin-bottom: 30px;
+	}
+	#Testimonial .column-1 .text-left{
+		margin-bottom: 30px;
+	}
+    .profile nav{
+        margin-top: 120px;
+    }
+    .profile .Profile-bg{
+        margin-bottom: 700px;
+    }
+}
+@media (max-width: 450px) 
+{
+    .profile .Profie-info-bg .media .media-left a img{
+        width: 100px;
+    }
+    .profile .Profie-info-bg .media .media-body div.dropdown ul{
+        width: 50px;
+    }
+    .profile .Profie-info-bg .media .media-body div.dropdown ul li{
+        font-size: 10px;
+    }
+}
+
+
+/* For Extra Small Screen*/
+@media only screen and (min-width: 300px) and (max-width: 570px)
+{
+	#Header{
+		height: 660px;
+	}
+	#Header .text-center a{
+		display: none;
+	}
+	.hero-content h1{
+		margin-top: -30px;
+	}
+	.hero-content p{
+		margin-bottom: 0px;
+	}
+	.hero-content center .post-button,.hero-content center .about-button,.hero-content center .report-button{
+		padding: 10px 5px 10px 5px;
+		font-size: 10px;
+	}
+	#content1 .post1,.post2,.post3,.post4{
+		height: 295px;
+	}
+	#content1 .post1 h2,.post2 h2,.post3 h2,.post4 h2{
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	#content1 .post1 a,.post2 a,.post3 a,.post4 a{
+		font-size: 10px;
+	}
+	#discussion-forum .post  .media .all-comments .comments h5,.post  .media .all-comments .comments p{
+		margin-left: 7px;
+	}
+	#discussion-forum .column2 .panel .panel-body .text{
+		margin-left: 0px;
+	}
+	#Testimonial .footer .text-right{
+		margin-top: 15px;
+	}
+	#discussion-forum .column2 .panel .panel-body h4{
+		margin-top: 10px;
+	}
+	#discussion-forum .post  .media .media-left img{
+		width: 80px;
+	}
+    .profile .Profile-bg{
+        margin-bottom: 450px;
+    }
+    #Testimonial .footer{
+        height: 110px;
+    }
+}
+
+
+.profile{
+	margin-top: 130px;
+}
+.profile nav{
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #d7dfe3;
+}
+.profile nav a{
+	font-family: 'Quicksand', sans-serif;
+}
+.profile nav ul li a{
+	font-size: 13px;
+}
+.profile .Profile-bg{
+    margin-top: 20px;
+	background: #ffffff;
+	width: 100%;
+	box-shadow: 0px 0px 10px #d7dfe3;
+	border-radius: 5px 5px 0px 0px;
+    padding-bottom: 15px;
+}
+.profile .Profile-bg img{
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+.profile .Profile-bg h3{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Libre Baskerville", serif;
+    letter-spacing: 1px;
+}
+.profile .Profile-bg h5{
+    text-align: center;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}
+.profile .Profie-info-bg{
+	background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px;
+	width: 100%;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #d7dfe3;
+	border-radius: 5px 5px 0px 0px;
+}
+.profile .Profie-info-bg .Submit-reposrts, .Favourite-reposrts{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: gray;
+	font-size: 15px;
+}
+.profile .Profie-info-bg .bottom{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	border: .5px solid gray;
+}
+.profile .Profie-info-bg .media a{
+	font-size: 15px;
+	color: gray;
+}
+.profile .Profie-info-bg .media-heading{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.profile .Profie-info-bg h6{
+	font-family: 'Quicksand', sans-serif;
+}
+.profile .Profie-info-bg hr:after{
+	background: red;
+	width: 20px;
+	width: 20px;
+}
+.profile .Profie-info-bg hr{
+	width: 60%;
+} 
+.profile .Profie-info-bg label, input{
+	display: block;
+    letter-spacing: 1px;
+	font-family: "Libre Baskerville", serif;
+}
+.profile .Profie-info-bg .margin{
+	margin-top: 20px;
+}
+.profile .Profie-info-bg textarea{
+    width: 100%;
+	border-bottom: 1px solid lightgray;
+    outline: none;
+	font-family: 'Quicksand', sans-serif;
+    height: 90px;    
+}
+.profile .Profie-info-bg input[type=text], input[type=password]{
+	width: 100%;
+	height: 35px;
+	border: 0;
+    font-size: 12px;
+	border-bottom: 1px solid lightgray;
+}
+.profile .Profie-info-bg input[type=text]:focus, input[type=password]:focus{
+	outline: none;
+}
+.profile .Profie-info-bg input[type=submit]{
+	margin-top: 20px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    background: #27afc2;
+    border: 0px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.profile .Profie-info-bg input[type=submit]:hover{
+    transition: .5s;
+    background:#333333;
+}
+
+table tr th {
+        font-family: "Libre Baskerville", serif;
+    }
+
+ table tr td img {
+                object-fit: cover;
+                width: 40px;
+                height: 30px;
+            }
+
+
+.panel-heading{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif
+}

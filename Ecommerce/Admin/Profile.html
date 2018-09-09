@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Add Admin - Dashboard</title>
+    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex, nofollow">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!-- Css Media Query !important -->
+	    <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile-device.css" />
+		
+		<!-- Online Font Awesome Link -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	   
+	    <!-- Online Google Font Link-->
+    	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    	<!-- Online Google Font Link-->
+    	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+		<!-- Online Bootstrap Link -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- Online Jquery Link -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+		<!-- Online Bootstrap Javascript Link -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	    <!-- External Css-->
+	    <link rel="stylesheet" type="text/css" href="Style/Style.css">
+        
+        <!-- Animate Link -->
+        <link rel="stylesheet" href="Style/animate.css">
+
+		<!-- Javascript File -->
+	    <script src="JS File/File.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Contaier-Fluid -->
+		<div class="container-fluid">
+			<div class="row">
+				<!-- First Column -->
+				<div class="col-md-2 col-lg-2 side-bar" id="side-bar">
+					<nav>
+                        <h3><a href="Dashboard.aspx"><b>A</b>dmin <b>Panel</b></a></h3>
+                        <hr class="bottom" />
+                        <ul>
+                            <a href="Dashboard.html">
+                                <li runat="server" id="DashboardActive"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;&nbsp;Dashboard</li>
+                            </a>
+                            <a href="Profile.html">
+                                <li runat="server" id="MyProfile"><i class="fa fa-user fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;My Profile</li>
+                            </a>
+                            <a href="AllReports.html">
+                                <li runat="server" id="AllReportsActive"><i class="fa fa-check-square-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;All Reports</li>
+                            </a>
+                            <a href="Comments.html">
+                                <li runat="server" id="CommentsActive"><i class="fa fa-comments-o fa-5x border" aria-hidden="true"></i>&nbsp;&nbsp;Comments</li>
+                            </a>
+                        </ul>
+                    </nav>
+				</div>
+
+				<!-- Second Column -->
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 right-bg">
+
+					<!-- Top COntent -->
+					<div class="top-content">
+						<div class="top-content">
+                    <div class="pull-left">
+					    <a href="javascript:void(0)" onclick="openNav();"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					    <span class="glyphicon glyphicon-search"></span>&nbsp;<input type="text" placeholder="Search">
+					    <input type="submit" class="btn btn-primary" value="Go">
+					</div>
+
+					<!-- Notification -->
+					<div class="pull-right">
+					    <li class="dropdown notification">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bell-o" aria-hidden="true"></i><span class="digit">6</span></a>
+					        <ul class="dropdown-menu">
+					            <h4 class="text-center">Notifications</h4>
+					            <hr class="bottom">
+
+					            <!-- Content 1 -->
+					            <div class="content">
+					                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					                    <img src="../<%= Mydata.Image %>" width="50" height="50">
+					                </div>
+					                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					                    <p><span>Umar  Anwar</span> submitted a<span> Sighting </span>Report</p>
+					                </div>
+					                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					                    <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+					                </div>
+					            </div>
+					            
+					            <div class="content">
+					                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					                    <img src="../<%= Mydata.Image %>" width="50" height="50">
+					                </div>
+					                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					                    <p><span>Umar Anwar</span> posted a <span>Missing People </span>Report</p>
+					                </div>
+					                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					                    <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+					                </div>
+					            </div>
+					            <div class="content">
+					                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					                    <img src="../<%= Mydata.Image %>" width="50" height="50">
+					                </div>
+					                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					                    <p><span>Umar Anwar</span> posted a <span>Missing Thing </span>Report</p>
+					                </div>
+					                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					                    <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+					                </div>
+					            </div>
+					            <div class="content">
+					                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					                    <img src="Image/DSC_0355.png" width="50" height="50">
+					                </div>
+					                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					                    <p><span>Umar Anwar</span> posted an <span>Unidentified People </span>Report</p>
+					                </div>
+					                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					                    <hr style="border: 1px solid #d6dde5; margin-left: -15px; margin-right: -15px">
+					                </div>
+					            </div>
+					        </ul>
+					    </li>
+
+					    <!-- Message -->
+					    <li class="dropdown message">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-envelope-o" aria-hidden="true"></i><span class="digit">3</span></a>
+					        <ul class="dropdown-menu">
+					            <h4 class="text-center">Messages</h4>
+					            <hr class="bottom">
+
+					            <!-- Content 1 -->
+					            <div class="content">
+					                <div class="pull-left">
+					                    <h5>03159382193</h5>
+					                </div>
+					                <div class="pull-right">
+					                    <h5>28/13/2018</h5>
+					                </div>
+					                <div class="clearfix"></div>
+					                <h5 class="text-center" style="margin-top: -5px;">12:45AM</h5>
+					                <div>
+					                    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat soluta et impedit qui maiores, laboriosam voluptat..</h6>
+					                </div>
+					                <hr style="border: 1px solid #d6dde5; margin-top: 0px; margin-bottom: 20px;">
+					            </div>
+					        </ul>
+					    </li>
+
+					    <!-- Profile -->
+					    <li class="dropdown profile">
+					        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					            <img src="Image/DSC_0355.png">&nbsp;&nbsp;
+								<h5>Umar ANwar</h5>
+					            &nbsp;<span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+					            <li><a href="Profile.aspx"><i class="fa fa-user-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Profile</a></li>
+					            <li><a href="Logout.aspx"><i class="fa fa-power-off" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Logout</a></li>
+					        </ul>
+					    </li>
+					</div>
+				</div>
+					</div>
+					<!-- Top Content  -->
+
+					<!--  Main COntent -->
+                    <div class="main-content" onclick="Open();">
+
+						<div class="profile">
+							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+								<div class="profile-bg text-center">
+									<img src="Image/DSC_0355.png" class="img img-responsive img-rounded center-block" width="490" height="490" />
+									<h3>Umar Anwar</h3>
+									<h5>Web Developer</h5>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+								<div class="information-bg">
+                                    <h5 class="text-center" runat="server" visible="false" id="Error" style="margin-top:-10px;margin-bottom:15px;color: red;font-size:16px;font-weight:bold"><span style="font-size:19px;font-weight:bold;">*</span> Image is Required</h5>
+									<label>Full Name</label><input type="text" placeholder="Ex: Umar Anwar" runat="server" id="FullName" />
+									<label>Title</label><input type="text" placeholder="Max 30 Cahracters" runat="server" id="Title" />
+									<label>Email</label><input type="text" placeholder="abc@xyz.com" runat="server" id="Email" />
+									<label>Qualification</label>
+									<select class="qualification" runat="server" id="Qualification">
+										<option value="Qualification" class="selected" selected="" disabled="">Select your Qualification</option>
+										<option value="FA/Fsc">FA/Fsc</option>
+										<option value="BA/Bsc">BA/Bsc</option>
+										<option value="MA/Msc">MA/Msc</option>
+										<option value="BS">BS</option>
+										<option value="MS">MS</option>
+										<option value="PHd">PHd</option>
+										<option value="Other">Other</option>
+									</select>
+									<label>Mobile No</label><input type="text" placeholder="Ex: 03159382193" runat="server" id="Contact">
+									<textarea placeholder="Bio-Description" runat="server" id="Description"></textarea>
+									<label class="image">Update Image</label><asp:FileUpload ID="Image" runat="server" CssClass="file" />
+                                    <h5 class="pull-right ErrorMsg"></h5>
+                                    <div class="clearfix"></div>
+                                    <asp:Button ID="AdminProfileUpdate" runat="server" Text="Update Profile" CssClass="btn center-block" OnClick="AdminProfileUpdate_Click"/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Main Content -->
+				</div>
+				<!-- Second Column -->
+			</div>
+			<!-- Row  -->
+		</div>
+		<!-- Container-Fluid -->
+    </form>
+</body>
+</html>

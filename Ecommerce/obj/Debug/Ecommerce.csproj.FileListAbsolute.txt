@@ -1,0 +1,72 @@
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojResolveAssemblyReference.cache
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\BLL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\BOL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\DAL.dll
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\BLL.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\BOL.pdb
+c:\users\rao umar anwar\documents\visual studio 2015\Projects\Ecommerce\Ecommerce\bin\DAL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\csc.exe
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\vbc.exe
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.dll.config
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Ecommerce.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\BLL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\BOL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\DAL.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\BLL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\BOL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\DAL.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csprojResolveAssemblyReference.cache
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportSource.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.Shared.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.Web.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Newtonsoft.Json.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Plivo.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\stdole.dll
+C:\Users\Umar Anwar\Documents\Visual Studio 2015\Projects\Ecommerce\Ecommerce\bin\Newtonsoft.Json.xml
